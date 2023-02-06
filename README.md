@@ -17,7 +17,7 @@ this plugin implemented from mysql connector jdbc (https://dev.mysql.com/downloa
 
 first of all, we need to add a new mysql user who have access to data management over the network. for xampp user go to **http://localhost/phpmyadmin/ - user account - add user account**
 
-#### Fill the textfield
+- #### Fill the textfield
 
 username : **budi**
 
@@ -27,7 +27,7 @@ hostname : **%**
 
 password : use generate button or fill with password you want 
 
-#### Security Permission
+- #### Security Permission
 
 Global privileges : **check all** 
 
