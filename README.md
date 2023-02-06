@@ -34,6 +34,9 @@ Global privileges : **check all**
 
 ### Connect to SQL Server Database (MariaDB)
 
+- #### Disable Windows Firewall
+
+Connect to SQL server database (MariaDB) using this plugin is very simple. 
 
 ### Get Result From Query (Select)
 
