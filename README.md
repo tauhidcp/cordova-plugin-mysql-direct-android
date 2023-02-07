@@ -13,7 +13,7 @@ this plugin implemented from jdbc driver (http://www.java2s.com/Code/Jar/j/Downl
 - Java 11  
 - MariaDB : 10.4.27 (xampp)
 
-### Add MySQL User Database (MariaDB)
+### Add MySQL User (MariaDB)
 
 first of all, we need to add a new mysql user who have access to data management over the network. for xampp user go to **http://localhost/phpmyadmin/ - user account - add user account**
 
@@ -30,6 +30,10 @@ password : use generate button or fill with password you want
 - #### Security Permission
 
 Global privileges : **check all** 
+
+
+### Install/Uninstall Plugin
+
 
 
 ### Connect to MySQL Server Database (MariaDB)
