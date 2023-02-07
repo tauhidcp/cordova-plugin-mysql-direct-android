@@ -1,9 +1,9 @@
 # cordova-plugin-sql-direct-android
-cordova plugin to execute sql query direct from android app 
+cordova plugin to execute sql query directly from android app 
 
 #### for security reason, execute sql query direct from android app is totally risk. this plugin for education only!
 
-this plugin implemented from mysql connector jdbc (https://dev.mysql.com/downloads/connector/j/). it allow you to execute sql query (select/insert/update/delete) from your cordova android app. 
+this plugin implemented from jdbc driver (http://www.java2s.com/Code/Jar/j/Downloadjdbcjar.htm). it allow you to execute sql query (select/insert/update/delete) from your cordova android app. 
 
 ### Tested on:
 
