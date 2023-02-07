@@ -32,7 +32,7 @@ password : use generate button or fill with password you want
 
 Global privileges : **check all** 
 
-
+- Create Database **cordova_sql** and import sql file in example folder
 
 ### Install/Uninstall Plugin
 
