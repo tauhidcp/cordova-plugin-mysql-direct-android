@@ -12,6 +12,10 @@
 		</config-file>
 		<lib-file src="src/android/libs/jdbc.jar"/>
 		<config-file parent="/*" target="AndroidManifest.xml"></config-file>
+		<config-file target="AndroidManifest.xml" parent="/*">
+			<uses-permission android:name="android.permission.INTERNET" />
+			<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+		</config-file>
 		<source-file src="src/android/MySQLDirect.java" target-dir="src/id/my/tauhidslab/mysqldirect" />
 	</platform>
 </plugin>
