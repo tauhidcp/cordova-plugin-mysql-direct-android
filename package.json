@@ -1,0 +1,25 @@
+{
+  "name": "id.my.tauhidslab.mysqldirect",
+  "version": "0.1.0",
+  "description": "cordova plugin to execute sql query directly from android app ",
+  "cordova": {
+    "id": "id.my.tauhidslab.mysqldirect",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tauhidcp/cordova-plugin-mysql-direct-android.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Ahmad Tauhid, S.Kom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tauhidcp/cordova-plugin-mysql-direct-android/issues"
+  },
+  "homepage": "https://github.com/tauhidcp/cordova-plugin-mysql-direct-android#readme"
+}

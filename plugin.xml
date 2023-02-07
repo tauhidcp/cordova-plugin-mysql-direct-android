@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="id.my.tauhidslab.mysqldirect" version="0.1.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<name>cordova-plugin-mysql-direct-android</name>
+	<js-module name="MySQLDirect" src="www/MySQLDirect.js">
+		<clobbers target="cordova.plugins.MySQLDirect" />
+	</js-module>
+	<platform name="android">
+		<config-file parent="/*" target="res/xml/config.xml">
+			<feature name="MySQLDirect">
+				<param name="android-package" value="id.my.tauhidslab.mysqldirect.MySQLDirect" />
+			</feature>
+		</config-file>
+		<lib-file src="src/android/libs/jdbc.jar"/>
+		<config-file parent="/*" target="AndroidManifest.xml"></config-file>
+		<source-file src="src/android/MySQLDirect.java" target-dir="src/id/my/tauhidslab/mysqldirect" />
+	</platform>
+</plugin>
