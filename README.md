@@ -1,9 +1,9 @@
-# cordova-plugin-sql-direct-android
-cordova plugin to execute sql query directly from android app 
+# cordova-plugin-mysql-direct-android
+cordova plugin to execute mysql query directly from android app 
 
-#### for security reason, execute sql query direct from android app is totally risk. this plugin for education only!
+#### !! for security reason, execute sql query direct from android app is totally risk. this plugin for education only !!
 
-this plugin implemented from jdbc driver (http://www.java2s.com/Code/Jar/j/Downloadjdbcjar.htm). it allow you to execute sql query (select/insert/update/delete) from your cordova android app. 
+this plugin implemented from jdbc driver (http://www.java2s.com/Code/Jar/j/Downloadjdbcjar.htm). it allow you to execute mysql query (select/insert/update/delete) from your cordova android app. 
 
 ### Tested on:
 
@@ -13,7 +13,7 @@ this plugin implemented from jdbc driver (http://www.java2s.com/Code/Jar/j/Downl
 - Java 11  
 - MariaDB : 10.4.27 (xampp)
 
-### Add SQL User to SQL Server Database (MariaDB)
+### Add MySQL User Database (MariaDB)
 
 first of all, we need to add a new mysql user who have access to data management over the network. for xampp user go to **http://localhost/phpmyadmin/ - user account - add user account**
 
@@ -32,11 +32,11 @@ password : use generate button or fill with password you want
 Global privileges : **check all** 
 
 
-### Connect to SQL Server Database (MariaDB)
+### Connect to MySQL Server Database (MariaDB)
 
-- #### Disable Windows Firewall
+- #### Disable Windows Firewall !!
 
-Connect to SQL server database (MariaDB) using this plugin is very simple. 
+Connect to MySQL server database (MariaDB) using this plugin is very simple. 
 
 ### Get Result From Query (Select)
 
