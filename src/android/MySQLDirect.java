@@ -15,7 +15,7 @@ import java.sql.ResultSet;
 
 /**
  * class to execute SQL Query from cordova android app 
- * implemented from mysql connector jdbc (https://dev.mysql.com/downloads/connector/j/)
+ * implemented from mysql connector jdbc (http://www.java2s.com/Code/Jar/j/Downloadjdbcjar.htm)
  * 
  * Ahmad Tauhid, S.Kom (http://www.tauhidslab.my.id/)
  * https://github.com/tauhidcp/cordova-plugin-sql-direct-android.git
